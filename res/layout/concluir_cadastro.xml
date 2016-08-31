@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_claro">
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/azul_claro"/>
+    
+    <EditText
+        android:id="@+id/et_nm_completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nm_completo"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/tv_nm_completo_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+    <EditText
+        android:id="@+id/et_nm_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nm_usuario"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/tv_nm_usuario_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+    <EditText
+        android:id="@+id/et_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/senha"
+        android:inputType="textPassword"/>
+    <TextView
+        android:id="@+id/tv_senha_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+    <Button
+        android:id="@+id/bt_concluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/concluir"/>
+
+</LinearLayout>

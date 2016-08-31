@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_claro">
+
+    <TextView
+        android:id="@+id/login_tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco" />
+    
+    <EditText
+        android:id="@+id/login_et_nm_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nm_usuario"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/login_tv_nm_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+    <EditText
+        android:id="@+id/login_et_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/senha"
+        android:inputType="textPassword"/>
+    <TextView
+        android:id="@+id/login_tv_senha_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+    <Button
+        android:id="@+id/login_bt_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"/>
+
+</LinearLayout>

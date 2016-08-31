@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_claro">
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/email"/>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_email"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:id="@+id/tv_email_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+    <Button
+        android:id="@+id/bt_avancar_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/avancar"/>
+
+
+</LinearLayout>

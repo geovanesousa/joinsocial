@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/saddle_brown"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro"
+        android:textColor="@color/branco"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_cadastre_se"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastre_se"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:id="@+id/tv_encontre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/encontre"
+        android:textColor="@color/branco"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_encontrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/encontrar_pessoa"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:id="@+id/tv_ja_tem_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ja_tem_conta"
+        android:textColor="@color/branco"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_faca_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/faca_login"
+        android:textColor="@color/branco" />
+
+</LinearLayout>

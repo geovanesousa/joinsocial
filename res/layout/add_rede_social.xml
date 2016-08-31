@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/plum" >
+
+    <Spinner
+        android:id="@+id/sp_lista_redes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_nm_usuario_rede"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nm_usuario" />
+    <TextView
+        android:id="@+id/tv_nm_rede_obrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermelho"/>
+
+    <Button
+        android:id="@+id/bt_add_rede"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+
+</LinearLayout>
